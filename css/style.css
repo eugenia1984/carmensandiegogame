@@ -1,0 +1,252 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+}
+
+/* Google font:
+DOMINE, para los títulos - : font-family: 'Domine', serif;
+ROBOTO, para los textos: font-family: 'Roboto', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* HEADER*/
+
+header {
+  height: 10vh;
+  width: 100%;
+  background-color: rgb(245, 10, 10);
+  color: #fff;
+  padding-top: 10px;
+}
+
+h1 {
+  font-family:'Domine', serif;
+  font-size: 30px;
+}
+
+/* SECTIONS*/
+p {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 12px;
+}
+
+/* CARMEN */
+.carmen {
+  width: 30%;
+  height: 62vh;
+  float: left;
+}
+
+.carmen-foto {
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 50%;
+}
+
+/*MENSAJE*/
+.mensaje {
+  width: 70%;
+  height: 62vh;
+  float: left;
+}
+
+.mensaje-carmen {
+  margin: 10%;
+}
+
+/* OPCION */
+
+.opcion {
+  width: 50%;
+  height: 22vh;
+  float: left;
+  text-align: center;
+}
+
+.opcion p {
+  margin-top: 20px;
+}
+
+.opcion p a {
+  text-decoration: none;
+  font-weight: 600;
+  color: rgb(245, 10, 10);
+}
+
+.opcion p a:hover {
+  text-decoration: none;
+  font-weight: 800;
+  color: rgba(3, 128, 10, 0.9);  
+}
+
+/* FOOTER*/
+footer {
+  height: 6vh;
+  width: 100vw;
+  background-color: rgb(245, 10, 10);
+  color: #fff;
+  text-align: center;
+  padding-top: 5px;
+  clear: both;
+}
+
+/******* GAMEOVER.HTML *******/
+
+.game-over {
+  width: 100%;
+  height: 72vh;
+}
+
+.game-over-cartel {
+  width: 300px;
+  padding-top: 50px;
+}
+
+.otra-oportunidad {
+  height: 12vh;
+  width: 100%;
+}
+
+.otra-oportunidad p a {
+  text-decoration: none;
+  font-weight: 800;
+  color: rgb(245, 10, 10);
+}
+
+.otra-oportunidad p a:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(245, 10, 10);
+}
+
+/******* PISTA.HTML *******/
+
+.lista {
+  font-family: 'Roboto', sans-serif;
+}
+
+.lista li {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
+/* *********FIN ********/
+.opcion2 {
+  width: 100%;
+  height: 22vh;
+  clear: both;
+}
+.panoramica {
+  height: 90%;
+}
+
+/********** PARA LAS PANTALLAS MENORES A LOS 500 PX ********/
+@media screen and (max-width:499px) {
+
+  /* HEADER*/
+h1 {
+  font-size: 20px;
+}
+
+/* SECTIONS*/
+p {
+  margin-top: 10px;
+}
+
+/* CARMEN */
+.carmen {
+  width: 100%;
+  height: 25vh;
+  clear: both;
+}
+.carmen-foto {
+  width: 45%;
+  margin: 5px auto;
+  border-radius: 50%;
+ 
+}
+
+/*MENSAJE*/
+.mensaje {
+  width: 100%;
+  height: 35vh;
+  clear: both;
+}
+
+.mensaje-carmen {
+  margin: 10px;
+}
+/* OPCION */
+
+.opcion {
+  height: 20vh;
+  padding: 10px;
+}
+
+.opcion p {
+  margin-top: 10px;
+}
+
+/* FOOTER*/
+footer {
+  height: 10vh;
+}
+
+/******* GAMEOVER.HTML *******/
+
+.game-over {
+  width: 100%;
+  height: 62vh;
+}
+
+.game-over-cartel {
+  width: 300px;
+  padding-top: 50px;
+}
+
+.otra-oportunidad {
+  height: 12vh;
+  width: 100%;
+}
+
+.otra-oportunidad p a {
+  text-decoration: none;
+  font-weight: 800;
+  color: rgb(245, 10, 10);
+}
+
+.otra-oportunidad p a:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(245, 10, 10);
+}
+
+/******* PISTA.HTML *******/
+
+.lista {
+  font-family: 'Roboto', sans-serif;
+}
+
+.lista li {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
+/* *********FIN ********/
+.opcion2 {
+  width: 100%;
+  height: 22vh;
+  clear: both;
+}
+.panoramica {
+  height: 75%;
+  margin-top: 30px;
+}
+} /* CIERRE DE LA @MEDIA*/
